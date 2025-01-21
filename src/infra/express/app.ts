@@ -11,6 +11,7 @@ import helmet from 'helmet'
 import { apiRoutes } from '@infra/routes/api-routes'
 import { notFoundApiRoutes } from './middlewares/not-found'
 import { globalErrorHandling } from './middlewares/global-errors'
+import '@shared/container'
 
 const api = express()
 
